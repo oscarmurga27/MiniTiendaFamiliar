@@ -14,6 +14,7 @@
       "id": 1,
       "name": "Carton de huevo extra grande y jumbo",
       "category": "Alimentos para la cocina",
+      "price": null,
       "description": "Precio carton de huevos extra grande Q39.00 Medio carton: 20.00 Precio carton de huevos JUMBO Q45.00 Medio carton: 25.00",
       "image": "imagenes_catalogo/55-cartones-de-huevos-extra-grande.png"
       
@@ -38,7 +39,7 @@
       "id": 4,
       "name": "Lavaplato KLINPIAX Limon 1Kg",
       "category": "Limpieza y hogar",
-      "price": 12.0,
+      "price": 12.00,
       "description": "Lavaplato KLINPIAX Limon 1Kg",
       "image": "imagenes_catalogo/04-lavaplato-klinpiax-limon-1kg.png"
     },
@@ -90,7 +91,7 @@
       "id": 10,
       "name": "Eponja fibra verde",
       "category": "Limpieza y hogar",
-      "price": 1.5,
+      "price": 2.5,
       "description": "Eponja fibra verde",
       "image": "imagenes_catalogo/10-eponja-fibra-verde.png"
     },
@@ -161,20 +162,8 @@
       "name": "Galletas chiky",
       "category": "SNACKS",
       "price": 2.5,
-      "description": "Galletas chiky",
-      "image": "imagenes_catalogo/17-galletas-chiky.png",
-      "priceOptions": [
-        {
-          "label": "Precio por unidad",
-          "value": 2.5,
-          "display": "Precio por unidad: 2.50"
-        },
-        {
-          "label": "Precio por paquete",
-          "value": 25.0,
-          "display": "Precio por paquete: 25.00"
-        }
-      ]
+      "description": "Galletas chiky precio de unidad Q2.5 precio por paquete Q.25",
+      "image": "imagenes_catalogo/17-galletas-chiky.png"
     },
     {
       "id": 18,
@@ -188,8 +177,8 @@
       "id": 19,
       "name": "Galleta Salada SODA",
       "category": "SNACKS",
-      "price": 1.5,
-      "description": "Galleta Salada SODA",
+      "price": null,
+      "description": "Galleta Salada SODA por unidad Q.1.5 por paquete Q.9.5",
       "image": "imagenes_catalogo/19-galleta-salada-soda.png",
       "priceOptions": [
         {
