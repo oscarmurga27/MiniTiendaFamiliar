@@ -9,7 +9,7 @@ const els = {
 
 const normalize = value => value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 const escapeHTML = value => String(value).replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
-const money = value => new Intl.NumberFormat(state.store.locale, { style:'currency', currency:state.store.currency, maximumFractionDigits:0 }).format(value);
+const money = value => new Intl.NumberFormat(state.store.locale, { style:'currency', currency:state.store.currency, maximumFractionDigits:2 }).format(value);
 
 function card(product, index) {
   return `<article class="card" style="animation-delay:${(index % PAGE_SIZE) * 45}ms">
