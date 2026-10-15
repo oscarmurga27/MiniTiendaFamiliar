@@ -728,10 +728,47 @@
       "price": 24.5,
       "description": "Pan Integral BIMBO",
       "image": "imagenes_catalogo/75-Pan-Tostado-Integral.png"
+    },
+     {
+      "id": 76,
+      "name": "Mani Japonesa marca Naú",
+      "category": "SNACKS",
+      "price": 1.00,
+      "description": "Mani Japonesa",
+      "image": "imagenes_catalogo/76-Mani-japonesa-nau.png"
+    },
+    {
+      "id": 77,
+      "name": "Casthistas platanina con sal",
+      "category": "SNACKS",
+      "price": 15.00,
+      "description": "Platanina con sal",
+      "image": "imagenes_catalogo/77-Platanina-Con-Sal.png"
+    },
+    {
+      "id": 78,
+      "name": "Agua pura Cielo",
+      "category": "Agua saludable",
+      "price": 5.00,
+      "description": "Agua Pura",
+      "image": "imagenes_catalogo/78-Agua-Pura-Cielo.png"
+    },
+    {
+      "id": 79,
+      "name": "Premezcla Panqueques Original Gold Medal",
+      "category": "Alimentos para la cocina",
+      "price": 15.00,
+      "description": "Panqueques Original Gold Medal",
+      "image": "imagenes_catalogo/79-Harina-Gold-Meda-Original.png"
+    },
+    {
+      "id": 80,
+      "name": "Ranchitas Sabor a Pizza",
+      "category": "SNACKS",
+      "price": 1.00,
+      "description": "ranchitas",
+      "image": "imagenes_catalogo/80-Ranchitas-pizza.png"
     }
-
-
-
 
   ]
 }
