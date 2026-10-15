@@ -20,27 +20,11 @@
     },
     {
       "id": 2,
-      "name": "Nachos, Precio preparados 5",
+      "name": "Nachos Diana",
       "category": "SNACKS",
       "price": 3.0,
-      "description": "Nachos",
-      "image": "imagenes_catalogo/23-nachos-1.png",
-      "priceOptions": [
-        {
-          "label": "Precio sin preparar",
-          "value": 3.0,
-          "display": "Precio sin preparar: 3.00"
-        },
-        {
-          "label": "Precio preparados",
-          "value": 5.0,
-          "display": "Precio preparados: 5.00"
-        }
-      ],
-      "images": [
-        "imagenes_catalogo/23-nachos-1.png",
-        "imagenes_catalogo/23-nachos-2.png"
-      ]
+      "description": "Precio del nacho Q.3 precio del nacho preparado con tajin, limon, chamoy, pepita, consome y sal Q5",
+      "image": "imagenes_catalogo/23-nachos-1.png"
     },
     {
       "id": 3,
