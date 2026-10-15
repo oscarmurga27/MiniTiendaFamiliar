@@ -768,6 +768,14 @@
       "price": 1.00,
       "description": "ranchitas",
       "image": "imagenes_catalogo/80-Ranchitas-pizza.png"
+    },
+    {
+      "id": 81,
+      "name": "Viro Grip gel dia y noche",
+      "category": "Farmacia",
+      "price": 5.00,
+      "description": "Viro Grip",
+      "image": "imagenes_catalogo/81-Viro-Grip-Gel-dia-noche.png"
     }
 
   ]
