@@ -316,7 +316,7 @@
       "name": "Mini / Coca Cola, Sprite, Fanta Naranja de 237 mL",
       "category": "Gaseosas",
       "price": 5.0,
-      "description": "Mini Coca Cola, Mini Sprite, mini Fanta Naranja de 237 mL",
+      "description": "Mini Coca Cola, Mini Sprite, Mini Fanta Naranja de 237 mL",
       "image": "imagenes_catalogo/27-coca-cola-sprite-fanta-naranja-de-237-ml-1.png",
       "priceOptions": [
         {
@@ -374,7 +374,7 @@
       "id": 32,
       "name": "Pasta inna macarrone",
       "category": "Alimentos para la cocina",
-      "price": 5.0,
+      "price": 6.5,
       "description": "Pasta inna macarrone",
       "image": "imagenes_catalogo/32-pasta-inna-macarrone.png"
     },
@@ -680,6 +680,58 @@
       "price": 15.0,
       "description": "Pastillas de jabon dove grande",
       "image": "imagenes_catalogo/69-pastillas-de-jabon-dove-grande.png"
+    },
+     {
+      "id": 70,
+      "name": "Consome de pollo MALHER sobres pequeños ",
+      "category": "Alimentos para la cocina",
+      "price": 1.5,
+      "description": "Consome de pollo marca MALHER",
+      "image": "imagenes_catalogo/70-consome-pequeno.png"
+    },
+   {
+      "id": 71,
+      "name": "Consome de pollo KNORR sobres pequeños",
+      "category": "Alimentos para la cocina",
+      "price": 1.25,
+      "description": "Concome de pollo marca KNORR",
+      "image": "imagenes_catalogo/71-Consome-KNORR-pequeno.png"
+    },
+    {
+      "id": 72,
+      "name": "Suavitel 1.8 Litros",
+      "category": "Limpieza y hogar",
+      "price": 20,
+      "description": "Suavitel 1.8 litros en oferta por introducción",
+      "image": "imagenes_catalogo/72-suavitel-1.8.png"
+    },
+    {
+      "id": 73,
+      "name": "Frijol colorado Doña Tita",
+      "category": "Alimentos para la cocina",
+      "price": 11,
+      "description": "Frijol colorado",
+      "image": "imagenes_catalogo/73-Frijol-colorado-tita.png"
+    },
+     {
+      "id": 74,
+      "name": "Pan tostado Blanco BIMBO",
+      "category": "Alimentos para la cocina",
+      "price": 21,
+      "description": "Pan Blanco BIMBO",
+      "image": "imagenes_catalogo/74-Pan-tostado-blanco.png"
+    },
+      {
+      "id": 75,
+      "name": "Pan tostado Integral BIMBO",
+      "category": "Alimentos para la cocina",
+      "price": 24.5,
+      "description": "Pan Integral BIMBO",
+      "image": "imagenes_catalogo/75-Pan-Tostado-Integral.png"
     }
+
+
+
+
   ]
 }
