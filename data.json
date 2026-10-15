@@ -1,9 +1,9 @@
 {
   "store": {
-    "name": "Tiendita Oscar",
+    "name": "Mini tienda Familiar",
     "eyebrow": "Catálogo",
     "headline": "Productos disponibles",
-    "description": "Si no encuentra el producto en el listado, puede escribirnos a nuestro WhatsApp para más información.",
+    "description": "Si no encuentra el producto en el listado, puede escribirnos a nuestro WhatsApp para más información y con gusto te lo llevamos a tu apartamento.",
     "currency": "GTQ",
     "locale": "es-GT",
     "whatsapp": "+50238633017",
@@ -12,7 +12,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Cartones de huevos extra grande, Precio medio cartón: 20",
+      "name": "Carton de huevo extra grande y jumbo",
       "category": "Alimentos para la cocina",
       "price": 39.0,
       "description": "Cartones de huevos extra grande, Precio medio cartón: 20",
