@@ -14,8 +14,8 @@
       "id": 1,
       "name": "Carton de huevo extra grande y jumbo",
       "category": "Alimentos para la cocina",
-      "price": 39.0,
-      "description": "Cartones de huevos extra grande, Precio medio cartón: 20",
+      "description": "Precio carton de huevos extra grande Q39.00 Medio carton: 20.00",
+      "description": "Precio carton de huevos JUMBO Q45.00 Medio carton: 25.00",
       "image": "imagenes_catalogo/55-cartones-de-huevos-extra-grande.png",
       "priceOptions": [
         {
