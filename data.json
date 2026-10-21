@@ -866,7 +866,7 @@
       "image": "imagenes_catalogo/92-Talla-Sanitaria-dia.jpg"
     },
     {
-      "id": 92,
+      "id": 93,
       "name": "KOTEX noche",
       "category": "Productos varios",
       "price": 15.0,
@@ -874,7 +874,7 @@
       "image": "imagenes_catalogo/93-kotex-dormir.jpg"
     },
     {
-      "id": 93,
+      "id": 94,
       "name": "Frijol ducal negro parado 400g",
       "category": "Alimentos para la cocina",
       "price": 10.0,
@@ -882,7 +882,7 @@
       "image": "imagenes_catalogo/94-Frijol-negro-ducal.jpg"
     },
     {
-      "id": 94,
+      "id": 95,
       "name": "Mayonesa Ligth",
       "category": "Alimentos para la cocina",
       "price": 16.0,
@@ -890,12 +890,20 @@
       "image": "imagenes_catalogo/95-Mayonesa-ligth.jpg"
     },
     {
-      "id": 95,
+      "id": 96,
       "name": "Mayonesa",
       "category": "Alimentos para la cocina",
       "price": 16.0,
       "description": "Mayonesa",
       "image": "imagenes_catalogo/96-Mayonesa.jpg"
+    },
+    {
+      "id": 97,
+      "name": "Pan sanguche europa",
+      "category": "Alimentos para la cocina",
+      "price": 16.0,
+      "description": "Mayonesa",
+      "image": "imagenes_catalogo/98-PanSanguche.jpg"
     }
   ]
 }
