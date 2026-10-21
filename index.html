@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Catálogo contemporáneo de objetos para el hogar, tecnología y bienestar.">
-  <title>Tiendita OSCAR — Catálogo Productos Básicos y más</title>
+  <title>NOVA. — Catálogo contemporáneo</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
@@ -13,8 +13,14 @@
 <body>
   <div class="grain" aria-hidden="true"></div>
   <header class="topbar">
-    <a class="brand" href="#top" aria-label="Ir al inicio" id="brand">Tiendita OSCAR</a>
-    <div class="topbar-meta"><span class="pulse"></span><span id="productCount">Catálogo</span></div>
+    <a class="brand" href="#top" aria-label="Ir al inicio" id="brand">NOVA.</a>
+    <div class="topbar-actions">
+      <div class="topbar-meta"><span class="pulse"></span><span id="productCount">Catálogo</span></div>
+      <button class="cart-header-button" id="cartToggle" type="button" aria-controls="cartDrawer" aria-expanded="false" aria-label="Abrir carrito, 0 productos">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.1 10.5a2 2 0 0 0 2 1.5H19a2 2 0 0 0 2-1.6l1-7H6"/><circle cx="10" cy="20" r="1"/><circle cx="19" cy="20" r="1"/></svg>
+        <span>Carrito</span> <span class="cart-counter" id="cartCount">0</span>
+      </button>
+    </div>
   </header>
 
   <main id="top">
@@ -44,7 +50,45 @@
     </section>
   </main>
 
-  <footer><span id="footerBrand">Tiendita OSCAR</span><span>Diseño para todos los días · <span id="year"></span></span></footer>
+  <footer><span id="footerBrand">NOVA.</span><span>Diseño para todos los días · <span id="year"></span></span></footer>
+
+  <button type="button" class="cart-float" id="cartFloat" aria-controls="cartDrawer" aria-expanded="false" aria-label="Abrir carrito, 0 productos">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.1 10.5a2 2 0 0 0 2 1.5H19a2 2 0 0 0 2-1.6l1-7H6"/><circle cx="10" cy="20" r="1"/><circle cx="19" cy="20" r="1"/></svg>
+    <span>Ver carrito</span> <span class="cart-counter" id="cartFloatCount">0</span>
+  </button>
+
+  <div class="cart-layer" id="cartLayer" hidden>
+    <div class="cart-backdrop" aria-hidden="true"></div>
+    <aside class="cart-panel" id="cartDrawer" role="dialog" aria-modal="true" aria-labelledby="cartTitle" tabindex="-1">
+      <div class="cart-panel-header">
+        <div><p class="cart-kicker">TU PEDIDO</p><h2 id="cartTitle">Mi carrito</h2></div>
+        <button type="button" class="cart-close" id="closeCart" aria-label="Cerrar carrito">×</button>
+      </div>
+      <div class="cart-panel-body">
+        <div class="cart-empty" id="cartEmpty">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.1 10.5a2 2 0 0 0 2 1.5H19a2 2 0 0 0 2-1.6l1-7H6"/><circle cx="10" cy="20" r="1"/><circle cx="19" cy="20" r="1"/></svg>
+          <p>Aún no agregaste productos.</p><span>Elige productos del catálogo para preparar tu pedido.</span>
+        </div>
+        <ul class="cart-items" id="cartItems" aria-label="Productos seleccionados" hidden></ul>
+        <button type="button" class="clear-cart" id="clearCart" hidden>Vaciar carrito</button>
+      </div>
+      <div class="cart-panel-footer">
+        <label class="cart-notes-label" for="cartNotes">Indicaciones para tu pedido (opcional)</label>
+        <textarea id="cartNotes" rows="2" maxlength="1000" placeholder="Ej. Medio cartón, presentación jumbo, dirección de entrega…"></textarea>
+        <div class="cart-totals" id="cartTotals" hidden>
+          <div class="cart-total-row"><span id="cartSubtotalLabel">Total</span><strong id="cartSubtotal">—</strong></div>
+          <p id="cartWarning" class="cart-warning" hidden>Hay productos sin precio publicado. El total final debe confirmarse.</p>
+        </div>
+        <a id="sendOrder" class="send-order" target="_blank" rel="noopener noreferrer" aria-disabled="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.2 7.7L3 21l1.8-5.8A8.5 8.5 0 1 1 21 11.5Z"/><path d="m9 9 1.5 3.2a5 5 0 0 0 2.4 2.3l3.1 1.2"/></svg>
+          Enviar pedido por WhatsApp
+        </a>
+        <p class="checkout-help">Se abrirá WhatsApp con el pedido listo para que lo envíes.</p>
+      </div>
+    </aside>
+  </div>
+
+  <p class="sr-only" id="cartLive" role="status" aria-live="polite"></p>
 
   <a class="whatsapp" id="whatsapp" href="#" target="_blank" rel="noopener noreferrer" aria-label="Contactar al proveedor por WhatsApp">
     <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a12 12 0 0 0-10.3 18.2L4 28l7-1.6A12 12 0 1 0 16 3Z"></path><path d="M12 10.5c.3-.6.5-.6.9-.6h.6c.2 0 .4.1.5.4l1.1 2.5c.1.3.1.5-.1.8l-.8 1c-.2.2-.2.4 0 .7.8 1.5 2 2.7 3.6 3.5.3.2.5.1.7-.1l1-1.2c.2-.3.5-.3.8-.2l2.4 1.2c.3.2.4.3.4.5 0 .6-.3 1.8-1.2 2.5-.8.7-1.8 1-3 .7-1.2-.2-3.2-1-5.5-3-2.7-2.4-4.3-5.3-4.5-6.7-.2-1.2.3-2.6 1.1-3.3.5-.5 1.1-.7 2-.7Z"></path></svg>
