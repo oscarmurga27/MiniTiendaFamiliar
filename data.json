@@ -12,10 +12,10 @@
   "products": [
     {
       "id": 1,
-      "name": "Carton de huevo extra grande y jumbo",
+      "name": "Carton de huevo extra grande",
       "category": "Alimentos para la cocina",
       "price": 39,
-      "description": "Precio carton de huevos extra grande Q39.00 Medio carton: 20.00 Precio carton de huevos JUMBO Q45.00 Medio carton: 25.00",
+      "description": "Precio del huevo extra grande por unidad 1.5",
       "image": "imagenes_catalogo/55-cartones-de-huevos-extra-grande.png"
       
     },
@@ -24,7 +24,7 @@
       "name": "Nachos Diana",
       "category": "SNACKS",
       "price": 3.0,
-      "description": "Precio del nacho sin preparar Q.3 precio del nacho preparado con tajin, limon, chamoy, pepita, consome y sal Q.5",
+      "description": "Precio del nacho sin preparar",
       "image": "imagenes_catalogo/23-nachos-1.png"
     },
     {
@@ -221,7 +221,7 @@
       "name": "Taqueritos",
       "category": "SNACKS",
       "price": 3.0,
-      "description": "Taqueritos sin preparar Q3.00 precio de taquerito preparado con tajin, limon, chamoy, pepita, consome y sal Q5 ",
+      "description": "Taqueritos sin preparar Q3.00 ",
       "image": "imagenes_catalogo/22-taqueritos-1.png",
       "priceOptions": [
         {
@@ -253,7 +253,7 @@
       "name": "Elotitos barbacoa",
       "category": "SNACKS",
       "price": 2.0,
-      "description": "Precio del elotitos de barbacoa sin preparar Q2.00 precio de elotito preparado con tajin, limon, chamoy, pepita, consome y sal Q4.00",
+      "description": "Precio del elotitos de barbacoa",
       "image": "imagenes_catalogo/24-elotitos-picantes-1.png",
       "priceOptions": [
         {
@@ -277,7 +277,7 @@
       "name": "Palitos chinos barbacoa",
       "category": "SNACKS",
       "price": 2.0,
-      "description": "Precio del Palitos chinos barbacoa sin preparar Q2.00 precio del polito chino preparado con tajin, limon, chamoy, pepita, consome y sal Q4.00",
+      "description": "Precio del Palitos chinos barbacoa ",
       "image": "imagenes_catalogo/25-palitos-chinos-barbacoa-1.png",
       "priceOptions": [
         {
@@ -452,7 +452,7 @@
     },
     {
       "id": 42,
-      "name": "Arina para panqueque blueberry 793g",
+      "name": "Harina para panqueque blueberry 793g",
       "category": "Alimentos para la cocina",
       "price": 29.0,
       "description": "Arina para panqueque blueberry 793g",
@@ -776,6 +776,102 @@
       "price": 5.00,
       "description": "Viro Grip",
       "image": "imagenes_catalogo/81-Viro-Grip-Gel-dia-noche.png"
+    },
+    {
+      "id": 82,
+       "name": "Medio carton de huevos extra grande",
+       "category": "Alimentos para la cocina",
+       "price": 20,
+       "description": "Precio del huevo extra grande por unidad 1.5",
+       "image": "imagenes_catalogo/55-cartones-de-huevos-extra-grande.png"
+    },
+    {
+      "id": 83,
+       "name": "Carton de huevos JUMBO",
+       "category": "Alimentos para la cocina",
+       "price": 45,
+       "description": "Precio del huevo huevo JUMBO por unidad 2.00",
+       "image": "imagenes_catalogo/55-cartones-de-huevos-extra-grande.png"
+    },
+    {
+      "id": 84,
+       "name": "Medio carton de huevos JUMBO",
+       "category": "Alimentos para la cocina",
+       "price": 25,
+       "description": "Precio del huevo JUMBO por unidad 2.00",
+       "image": "imagenes_catalogo/55-cartones-de-huevos-extra-grande.png"
+    },
+    {
+      "id": 85,
+       "name": "Mantequilla Mirasol Ligth",
+       "category": "Alimentos para la cocina",
+       "price": 20,
+       "description": "Precio del huevo extra grande por unidad 1.5",
+       "image": "imagenes_catalogo/55-cartones-de-huevos-extra-grande.png"
+    },
+    {
+      "id": 86,
+       "name": "Vitaflenaco",
+       "category": "Alimentos para la cocina",
+       "price": 20,
+       "description": "Precio del huevo extra grande por unidad 1.5",
+       "image": "imagenes_catalogo/81-Viro-Grip-Gel-dia-noche.png"
+    },
+    {
+      "id": 87,
+      "name": "Nachos Diana preparados",
+      "category": "SNACKS",
+      "price": 4.0,
+      "description": "Preparado con tajin, limon, chamoy, pepita, consome y sal Q.4",
+      "image": "imagenes_catalogo/87-Preparado.jpg"
+    },
+    {
+      "id": 88,
+      "name": "Taqueritos preparados",
+      "category": "SNACKS",
+      "price": 5.0,
+      "description": "Preparado con tajin, limon, chamoy, pepita, consome y sal Q.5",
+      "image": "imagenes_catalogo/87-Preparado.jpg"
+    },
+    {
+      "id": 89,
+      "name": "Mani Japonesa marca Naú Preparada",
+      "category": "SNACKS",
+      "price": 4.0,
+      "description": "Preparado con tajin, limon, chamoy, pepita, consome y sal Q.4",
+      "image": "imagenes_catalogo/87-Preparado.jpg"
+    },
+    {
+      "id": 90,
+      "name": "Palitos chinos barbacoa preprados",
+      "category": "SNACKS",
+      "price": 4.0,
+      "description": "Preparado con tajin, limon, chamoy, pepita, consome y sal Q.4",
+      "image": "imagenes_catalogo/87-Preparado.jpg"
+    },
+    {
+      "id": 91,
+      "name": "Barra de mantequilla Mirasol Ligth",
+      "category": "Alimentos para la cocina",
+      "price": 5.0,
+      "description": "Barra de mantequilla Ligth",
+      "image": "imagenes_catalogo/91-Barrada-Mantequilla-mirasol-ligth.jpg"
+    },
+    {
+      "id": 92,
+      "name": "Toallas sanitarias saba día",
+      "category": "Productos varios",
+      "price": 15.0,
+      "description": "Tallas sanitarias saba",
+      "image": "imagenes_catalogo/92-Talla-Sanitaria-dia.jpg"
+    },
+    {
+      "id": 92,
+      "name": "KOTEX noche",
+      "category": "Productos varios",
+      "price": 15.0,
+      "description": "Tallas sanitarias saba",
+      "image": "imagenes_catalogo/93-kotex-dormir.jpg"
     }
 
   ]
