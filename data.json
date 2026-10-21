@@ -879,7 +879,7 @@
       "category": "Alimentos para la cocina",
       "price": 10.0,
       "description": "Frijol ducal negro parado",
-      "image": "imagenes_catalogo/94-Frijol-negro-ducal.png"
+      "image": "imagenes_catalogo/94-Frijol-negro-ducal.jpg"
     },
     {
       "id": 94,
@@ -887,7 +887,7 @@
       "category": "Alimentos para la cocina",
       "price": 16.0,
       "description": "Mayonesa",
-      "image": "imagenes_catalogo/95-Mayonesa-ligth.png"
+      "image": "imagenes_catalogo/95-Mayonesa-ligth.jpg"
     },
     {
       "id": 95,
@@ -895,7 +895,7 @@
       "category": "Alimentos para la cocina",
       "price": 16.0,
       "description": "Mayonesa",
-      "image": "imagenes_catalogo/96-Mayonesa.png"
+      "image": "imagenes_catalogo/96-Mayonesa.jpg"
     }
   ]
 }
