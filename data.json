@@ -151,11 +151,11 @@
     },
     {
       "id": 16,
-      "name": "Tortix sabor limón 17 gramos",
+      "name": "Cheetos anaranjados",
       "category": "SNACKS",
       "price": 1.0,
       "description": "Tortix sabor limón 17 gramos",
-      "image": "imagenes_catalogo/16-tortix-sabor-limon-17-gramos.png"
+      "image": "imagenes_catalogo/16-cheetos-17-gramos.png"
     },
     {
       "id": 17,
@@ -815,7 +815,7 @@
        "category": "Alimentos para la cocina",
        "price": 20,
        "description": "Precio del huevo extra grande por unidad 1.5",
-       "image": "imagenes_catalogo/81-Viro-Grip-Gel-dia-noche.png"
+       "image": "imagenes_catalogo/97-Vitaflenaco.jpg"
     },
     {
       "id": 87,
@@ -872,7 +872,30 @@
       "price": 15.0,
       "description": "Tallas sanitarias saba",
       "image": "imagenes_catalogo/93-kotex-dormir.jpg"
+    },
+    {
+      "id": 93,
+      "name": "Frijol ducal negro parado 400g",
+      "category": "Alimentos para la cocina",
+      "price": 10.0,
+      "description": "Frijol ducal negro parado",
+      "image": "imagenes_catalogo/94-Frijol-negro-ducal.png"
+    },
+    {
+      "id": 94,
+      "name": "Mayonesa Ligth",
+      "category": "Alimentos para la cocina",
+      "price": 16.0,
+      "description": "Mayonesa",
+      "image": "imagenes_catalogo/95-Mayonesa-ligth.png"
+    },
+    {
+      "id": 95,
+      "name": "Mayonesa",
+      "category": "Alimentos para la cocina",
+      "price": 16.0,
+      "description": "Mayonesa",
+      "image": "imagenes_catalogo/96-Mayonesa.png"
     }
-
   ]
 }
