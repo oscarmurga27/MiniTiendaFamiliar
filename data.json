@@ -398,7 +398,7 @@
       "id": 35,
       "name": "Frijol ducal negro 400g",
       "category": "Alimentos para la cocina",
-      "price": 10.00,
+      "price": 9.5,
       "description": "Frijol ducal negro 400g",
       "image": "imagenes_catalogo/35-frijol-ducal-negro-400g.png"
     },
@@ -406,7 +406,7 @@
       "id": 36,
       "name": "Frijol ducal rojo 400g",
       "category": "Alimentos para la cocina",
-      "price": 12.0,
+      "price": 10.0,
       "description": "Frijol ducal rojo 400g",
       "image": "imagenes_catalogo/36-frijol-ducal-rojo-400g.png"
     },
@@ -877,7 +877,7 @@
       "id": 94,
       "name": "Frijol ducal negro parado 400g",
       "category": "Alimentos para la cocina",
-      "price": 13.0,
+      "price": 10.0,
       "description": "Frijol ducal negro parado",
       "image": "imagenes_catalogo/94-Frijol-negro-ducal.jpg"
     },
@@ -901,17 +901,9 @@
       "id": 97,
       "name": "Pan sanguche europa",
       "category": "Alimentos para la cocina",
-      "price": 26.0,
+      "price": 28.50,
       "description": "Mayonesa",
       "image": "imagenes_catalogo/98-PanSanguche.jpg"
-    },
-   {
-      "id": 98,
-      "name": "Pasta Inna corbatas",
-      "category": "Alimentos para la cocina",
-      "price": 6.5,
-      "description": "Pasta Inna corbata",
-      "image": "imagenes_catalogo/98-1-Corbata-Pasta-ina.jpg"
     }
   ]
 }
