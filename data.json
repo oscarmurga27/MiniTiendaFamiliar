@@ -905,29 +905,13 @@
       "description": "Mayonesa",
       "image": "imagenes_catalogo/98-PanSanguche.jpg"
     },
-    {
+   {
       "id": 98,
-      "name": "Pasta ina corbata mediano 200g",
+      "name": "Pasta Inna corbatas",
       "category": "Alimentos para la cocina",
       "price": 6.5,
-      "description": "Pasta ina corbata mediano 200g",
-      "image": "imagenes_catalogo/98-Corbata-Pasta-ina.png"
-    },
-    {
-      "id": 99,
-      "name": "Avena quaker MOSH",
-      "category": "Alimentos para la cocina",
-      "price": 12.5,
-      "description": "Pasta ina corbata mediano 300g",
-      "image": "imagenes_catalogo/99-avena.png"
-    },
-    {
-      "id": 100,
-      "name": "Incamparina",
-      "category": "Alimentos para la cocina",
-      "price": 12.5,
-      "description": "Pasta ina corbata mediano 300g",
-      "image": "imagenes_catalogo/98-imcaparina.png"
+      "description": "Pasta Inna corbata",
+      "image": "imagenes_catalogo/98-1-Corbata-Pasta-ina.jpg"
     }
   ]
 }
