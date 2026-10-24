@@ -398,7 +398,7 @@
       "id": 35,
       "name": "Frijol ducal negro 400g",
       "category": "Alimentos para la cocina",
-      "price": 9.5,
+      "price": 10.00,
       "description": "Frijol ducal negro 400g",
       "image": "imagenes_catalogo/35-frijol-ducal-negro-400g.png"
     },
@@ -406,7 +406,7 @@
       "id": 36,
       "name": "Frijol ducal rojo 400g",
       "category": "Alimentos para la cocina",
-      "price": 10.0,
+      "price": 12.0,
       "description": "Frijol ducal rojo 400g",
       "image": "imagenes_catalogo/36-frijol-ducal-rojo-400g.png"
     },
@@ -877,7 +877,7 @@
       "id": 94,
       "name": "Frijol ducal negro parado 400g",
       "category": "Alimentos para la cocina",
-      "price": 10.0,
+      "price": 13.0,
       "description": "Frijol ducal negro parado",
       "image": "imagenes_catalogo/94-Frijol-negro-ducal.jpg"
     },
@@ -904,6 +904,31 @@
       "price": 16.0,
       "description": "Mayonesa",
       "image": "imagenes_catalogo/98-PanSanguche.jpg"
-    }
+    },
+    {
+      "id": 98,
+      "name": "Pasta ina corbata mediano 200g",
+      "category": "Alimentos para la cocina",
+      "price": 6.5,
+      "description": "Pasta ina corbata mediano 200g",
+      "image": "imagenes_catalogo/98-Corbata-Pasta-ina.png"
+    },
+    {
+      "id": 99,
+      "name": "Avena quaker MOSH",
+      "category": "Alimentos para la cocina",
+      "price": 12.5,
+      "description": "Pasta ina corbata mediano 300g",
+      "image": "imagenes_catalogo/99-avena.png"
+    },
+    {
+      "id": 100,
+      "name": "Incamparina",
+      "category": "Alimentos para la cocina",
+      "price": 12.5,
+      "description": "Pasta ina corbata mediano 300g",
+      "image": "imagenes_catalogo/98-imcaparina.png"
+    },
+  ]
   ]
 }
