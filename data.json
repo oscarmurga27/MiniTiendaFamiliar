@@ -898,11 +898,11 @@
       "image": "imagenes_catalogo/96-Mayonesa.jpg"
     },
     {
-      "id": 97,
+      "id": 98,
       "name": "Pan sanguche europa",
       "category": "Alimentos para la cocina",
       "price": 28.50,
-      "description": "Mayonesa",
+      "description": "pan sanguche",
       "image": "imagenes_catalogo/98-PanSanguche.jpg"
     }
   ]
