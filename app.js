@@ -323,6 +323,17 @@ els.clearCart.addEventListener('click', () => {
   persistCart();
   renderCart();
 });
+els.sendOrder.addEventListener('click', () => {
+  if (els.sendOrder.getAttribute('aria-disabled') === 'true') return;
+
+  setTimeout(() => {
+    state.cart.clear();
+    state.notes = '';
+    els.cartNotes.value = '';
+    persistCart();
+    renderCart();
+  }, 300);
+});
 els.cartNotes.addEventListener('input', event => {
   state.notes = event.target.value;
   const rows = getCartRows();
